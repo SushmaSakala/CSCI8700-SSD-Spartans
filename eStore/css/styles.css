@@ -1,4 +1,6 @@
-
+body{
+ height:100%;width:100%;   
+}
 
 .navbar>.container-fluid .logo.navbar-brand {
     width: 100px;
