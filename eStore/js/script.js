@@ -18,14 +18,14 @@ $(document).ready(function () {
 
 
     });
-
+//for validation
     function validateCredentials(allData) {
-        var allTextLines = allData.split(/\r\n|\n/);
-        var headers = allTextLines[0].split(',');
+        var TextLines = allData.split(/\r\n|\n/);
+        var headers = TextLines[0].split(',');
         var lines = [];
     
-        for (var i=1; i<allTextLines.length; i++) {
-            var data = allTextLines[i].split(',');
+        for (var i=1; i<TextLines.length; i++) {
+            var data = TextLines[i].split(',');
             if (data.length == headers.length) {
     
                 var tarr = [];
@@ -35,7 +35,7 @@ $(document).ready(function () {
                 lines.push(tarr);
             }
         }
-        console.log(lines)
+        //console.log(lines)
     }
 
 
