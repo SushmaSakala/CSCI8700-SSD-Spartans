@@ -32,8 +32,14 @@
   </div>
 </nav>
   
-<div class="container-fluid text-center wrapper">    
+<div class="container-fluid text-center wrapper">  
+      
+    <div class="alert alert-danger top20" id="loginError" >
+        <strong>Login Error!</strong> Username or Password do not match . Please login with correct credentials.
+      </div> 
+
   <div class="login col-xs-10 col-md-5">
+      
       <form class="form-signin" method="POST" id="login_form">
         <h2 class="form-signin-heading">Login</h2>
         <label for="inputId" class="sr-only">User Name</label>
@@ -42,14 +48,18 @@
         <input type="password" id="inputPassword" class="form-control" placeholder="Password" name="password" required>
         
         <button class="btn btn-lg btn-primary btn-block" id="loginSubmit" type="submit">Login</button>
-      </form>  
+      </form> 
+    
+     
   </div>
+    
+  
 </div>
 
 <footer class="container-fluid text-center navbar-inverse">
   <p>&copy; copy rights reserved</p>
 </footer>
 
-<script src="js/script.js"></script>
+<script src="js/login.js"></script>
 </body>
 </html>

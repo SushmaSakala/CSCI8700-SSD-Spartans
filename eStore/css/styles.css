@@ -1,6 +1,12 @@
-body{
-   
+body,iframe,p{
+   margin:0;
+   padding:0;
+   border:0;
 }
+.top20{
+    margin-top:20px;
+}
+
 
 .navbar>.container-fluid .logo.navbar-brand {
     width: 100px;
@@ -26,7 +32,6 @@ body{
 footer{
     color:#fff;
 }
-
 
 
 /*tablet styles*/

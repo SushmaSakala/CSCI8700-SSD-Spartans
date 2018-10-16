@@ -6,7 +6,7 @@
   <meta name="keywords" content="products, charity, sell buy">
   <meta name="author" content="Sushma Sakala, Lakshmi Prasanna, Sainath, Teja">
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-   <link rel="stylesheet" href="css/styles.css">
+   <link rel="stylesheet" href="../css/styles.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
@@ -20,47 +20,38 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#">Logo</a>
+      <img class="navbar-brand logo" src="../images/logo.png" alt="eStore" title="eStore"/>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
+      <ul class="nav navbar-nav" id="navigate">
         <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">Profile</a></li>        
-        <li><a href="#">Contact</a></li>
+        <li><a href="#">Buy Products</a></li>        
+        <li><a href="#">Sell Product</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
       </ul>
     </div>
   </div>
 </nav>
   
-<div class="container-fluid text-center">    
+<div class="container-fluid text-center wrapper">    
   <div class="row content">
-    <div class="col-sm-2 sidenav">
-      <p><a href="#">Products</a></p>
-      <p><a href="#">Sell Product</a></p>
-     
-    </div>
-    <div class="col-sm-10 text-left"> 
-      <h1>Welcome</h1>
-      <p> </p>
-      <hr>
-      <h3>Test</h3>
-      <p>Lorem ipsum...</p>
-    </div>
   
+    <div class="col-sm-12 text-left">
+      <h1> Welcome <span id="userName"></span></h1>
+        <div id="mydiv">
+            <iframe id="frame" src="" width="100%" height="300">
+            </iframe>
+        </div>
   </div>
 </div>
+</div>
 
-<footer class="container-fluid text-center">
-  <p>@copy; copy rights reserved</p>
-</footer>
+<footer class="container-fluid text-center navbar-inverse">
+    <p>&copy; copy rights reserved</p>
+  </footer>
 
-
-
-
-
-<script src="js/script.js"></script>
+<script src="../js/home.js"></script>
 </body>
 </html>
