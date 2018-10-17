@@ -64,3 +64,14 @@ footer{
         margin-top:200px;
     }
 }
+
+/* Columns */
+.left-column {
+  width: 65%;
+  position: relative;
+}
+ 
+.right-column {
+  width: 35%;
+  margin-top: 60px;
+}
