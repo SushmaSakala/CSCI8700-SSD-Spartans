@@ -32,8 +32,64 @@
   </div>
 </nav>
   
-<div class="container-fluid text-center wrapper">  
- signup Form HERE
+<div class="container-fluid text-center wrapper"> 
+  
+    <h1>Sign Up</h1>
+    <p>Please fill in this form to create an account.</p>
+
+    <form class="form-horizontal col-xs-10 col-md-10" id="signUpForm" >
+     
+      <div class="form-group">
+          <label class="control-label col-sm-3" for="userId">User ID:</label>    
+          <div class="col-sm-6">
+            <input type="text" class="form-control" id="userId" name="userId" placeholder="Enter User ID">
+          </div>
+         <p  class="col-sm-3 text-danger"> Enter Valid User Id</p>
+        </div>
+      <div class="form-group">
+        <label class="control-label col-sm-3" for="pwd">Password:</label>
+        <div class="col-sm-6"> 
+          <input type="password"  id="pwd" class="form-control"  name="pwd" placeholder="Enter password">
+        </div>
+        <p  class="col-sm-3 text-danger"> Enter Valid Password</p>
+      </div>
+      <div class="form-group">
+          <label class="control-label col-sm-3" for="confPwd"> Confirm Password:</label>
+          <div class="col-sm-6"> 
+            <input type="password" class="form-control" id="confPwd"   name="confPwd" placeholder="Confirm password">
+          </div>
+          <p  class="col-sm-3 text-danger"> Confirm Password should match with password.</p>
+        </div>
+      <div class="form-group">
+          <label class="control-label col-sm-3" for="name">Name:</label>    
+          <div class="col-sm-6">
+            <input type="text" class="form-control"  id="name" name="name" placeholder="Enter Name">
+          </div>
+          <p  class="col-sm-3 text-danger">Enter User Name</p>
+        </div>
+      <div class="form-group">
+          <label class="control-label col-sm-3" for="phone">Phone Number:</label>
+          <div class="col-sm-6"> 
+            <input type="text" class="form-control"  id="phone" name="phone" placeholder="Enter Phone Number">
+          </div>
+          <p  class="col-sm-3 text-danger"> Enter Phone number</p>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-sm-3" for="addr">Address:</label>
+            <div class="col-sm-5"> 
+                <textarea class="form-control z-depth-1" id="addr"  name="addr" rows="3"  placeholder="Enter Address"></textarea>
+                <p  class="col-sm-3 text-danger"> Enter Address</p>
+            </div>
+          </div>
+      <div class="form-group"> 
+        <div class="col-sm-offset-2 col-sm-10">
+          <button type="submit" class="btn btn-default btn-primary  col-xs-2">Sign Up</button>
+          <button type="reset" class="btn btn-default btn-primary  left20 col-xs-2">Reset</button>
+        </div>
+      </div>
+    </form>
+
+
 </div>
 
 <footer class="container-fluid text-center navbar-inverse">

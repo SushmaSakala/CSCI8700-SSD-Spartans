@@ -6,6 +6,9 @@ body,iframe,p{
 .top20{
     margin-top:20px;
 }
+.left20{
+  margin-left:20px;
+}
 
 
 .navbar>.container-fluid .logo.navbar-brand {
