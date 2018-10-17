@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <meta name="description" content="productsList">
+  <meta name="description" content="eStore">
   <meta name="keywords" content="products, charity, sell buy">
   <meta name="author" content="Sushma Sakala, Lakshmi Prasanna, Sainath, Teja">
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -11,7 +11,6 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
-
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -22,10 +21,22 @@
       </button>
       <img class="navbar-brand logo" src="../images/logo.png" alt="eStore" title="eStore"/>
     </div>
-    <div class="container-fluid text-center wrapper">  
- Buy Products from HERE
-</div>
-  <main class="container">
+    <div class="collapse navbar-collapse" id="myNavbar">
+    
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="../login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    <li><a href="signup.html"><span class="glyphicon glyphicon-log-in"></span> Sign Up</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="container-fluid text-center wrapper"> 
+  
+    <h1>ProductsList</h1>
+    <p>Buy the Products from Here</p>
+    <main class="container">
+ 
   <!-- Left Column / Headphones Image -->
   <div class="left-column">
     <img data-image="black" src="images/black.png" alt="">
@@ -88,14 +99,11 @@
       <a href="#" class="cart-btn">Add to cart</a>
     </div>
   </div>
-  </nav>
 </main>
- <footer class="container-fluid text-center navbar-inverse">
+<footer class="container-fluid text-center navbar-inverse">
   <p>&copy; copy rights reserved</p>
 </footer>
 
 <script src="../js/productlist.js"></script>
 </body>
 </html>
-  
-
