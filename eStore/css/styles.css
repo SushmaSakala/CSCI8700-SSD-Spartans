@@ -3,14 +3,23 @@ body,iframe,p{
    padding:0;
    border:0;
 }
+input:required:invalid, textarea:required:invalid {
+    outline: none;
+}
 .top20{
     margin-top:20px;
 }
 .left20{
   margin-left:20px;
 }
-
-
+button{
+  min-width:150px;
+}
+.mand{
+  display:inline-block;
+  color:red;
+  margin-left:5px;
+}
 .navbar>.container-fluid .logo.navbar-brand {
     width: 100px;
     padding: 0;
@@ -43,6 +52,16 @@ footer{
     margin:30px;
 }
 
+
+/*Sign up page*/
+#signUpForm .text-danger{
+display:none;
+}
+#signUpForm .has-error .text-danger{
+  display:block;
+  text-align: left;
+  margin-top: 6px;
+  }
 
 /*tablet styles*/
 @media screen and (min-width: 660px)  and (max-width: 980px) {
