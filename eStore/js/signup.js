@@ -56,6 +56,7 @@ $(document).ready(function () {
     }
     function saveSignUpData(signUpData){
         console.log(signUpData)
+        window.location = "http://localhost/eStore/login.html";
     }
 
 });

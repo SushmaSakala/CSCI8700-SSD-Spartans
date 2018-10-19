@@ -1,68 +1,59 @@
 <link rel="stylesheet" href="../css/styles.css">
-<div>
-
-
-<h4>Perfume!</h4>
-<p>Buy the Products from Here</p>
-
-<!-- Left Column / Perfume Image -->
-<div class="left-column">
-  <img data-image="black" src="images/black.png" alt="">
-  <img data-image="blue" src="images/blue.png" alt="">
-  <img data-image="red" class="active" src="images/red.png" alt="">
-</div>
-
-
-<!-- Right Column -->
-<div class="right-column">
-
-  <!-- Product Description -->
-  <div class="product-description">
-    <span>Perfume</span>
-   <!-- <h4>jaguar</h4>-->
-    <p>The best selling one is with lowest price for u!!</p>
-
-    <marquee behavior="scroll" direction="left"> Here's is the best men's perfume for u at lowest price</marquee>
-
+<div class="col-xs-12">
+  <h4>Perfume!</h4>
+ 
+  <div class="col-xs-3 images">
+    <img data-image="red" class="active" src="../images/perfume.png" alt="">
   </div>
+  <!-- Right Column -->
+  <div class="col-xs-9">
+ 
+    <!-- Product Description -->
+    <div class="product-description">
+      <span>Perfume</span>
+     
+      <p>The best selling one is with lowest price for u!!</p>
+      <marquee behavior="scroll" direction="left"> Here's is the best men's perfume for u at lowest price</marquee>
 
-  <!-- Product Configuration -->
-  <div class="product-configuration">
+    </div>
 
-    <!-- Product Color -->
-    <div class="product-color">
-      <span>Color</span>
+    <!-- Product Configuration -->
+    <div class="product-configuration">
 
-      <div class="color-choose">
-        <div>
-          <input data-image="red" type="radio" id="red" name="color" value="red" checked>
-          <label for="red"><span></span></label>
+      <!-- Product Color -->
+      <div class="product-color">
+        <span>Color</span>
+
+        <div class="color-choose">
+          <div>
+            <input data-image="red" type="radio" id="red" name="color" value="red" checked>
+            <label for="red"><span></span></label>
+          </div>
+          <div>
+            <input data-image="blue" type="radio" id="blue" name="color" value="blue">
+            <label for="blue"><span></span></label>
+          </div>
+          <div>
+            <input data-image="black" type="radio" id="black" name="color" value="black">
+            <label for="black"><span></span></label>
+          </div>
         </div>
-        <div>
-          <input data-image="blue" type="radio" id="blue" name="color" value="blue">
-          <label for="blue"><span></span></label>
-        </div>
-        <div>
-          <input data-image="black" type="radio" id="black" name="color" value="black">
-          <label for="black"><span></span></label>
-        </div>
+
       </div>
 
+      <!-- Cable Configuration -->
+      <div class="cable-config">
+        <span>Cable configuration</span>
+        <a href="#">check for other perfumes of same type</a>
+      </div>
     </div>
 
-    <!-- Cable Configuration -->
-    <div class="cable-config">
-      <span>Cable configuration</span>
-      <a href="#">check for other perfumes of same type</a>
+    <!-- Product Pricing -->
+    <div class="product-price">
+      <span>49.99$</span>
+      <a href="#" class="cart-btn">Add to cart</a>
     </div>
   </div>
-
-  <!-- Product Pricing -->
-  <div class="product-price">
-    <span>49.99$</span>
-    <a href="#" class="cart-btn">Add to cart</a>
-  </div>
-</div>
-
+ 
 </div>
 <script src="../js/productlist.js"></script>
