@@ -1,0 +1,74 @@
+<link rel="stylesheet" href="../../css/bootstrap.min.css">
+<link rel="stylesheet" href="../../css/styles.css">
+
+<script src="../../js/jquery.min.js"></script>
+<script src="../../js/bootstrap.min.js"></script>
+<h1>T-Shirts</h1>
+<main class="container">
+  <!-- Right Column -->
+  <div class="col-xs-8">
+
+    <!-- Product Description -->
+    <div class="product-description">
+      <span>T-shirts</span>
+     
+      <p>The best selling one is with lowest price for u!!</p>
+
+      <marquee behavior="scroll" direction="left"> Here's is the best T-shirts for u at lowest price</marquee>
+
+    </div>
+
+    <!-- Product Configuration -->
+    <div class="product-configuration">
+
+      <!-- Product Color -->
+      <div class="product-color">
+        <span>Color</span>
+
+        <div class="color-choose">
+          <div>
+            <input data-image="red" type="radio" id="red" name="color" value="red" checked>
+            <label for="red"><span></span></label>
+          </div>
+          <div>
+            <input data-image="blue" type="radio" id="blue" name="color" value="blue">
+            <label for="blue"><span></span></label>
+          </div>
+          <div>
+            <input data-image="black" type="radio" id="black" name="color" value="black">
+            <label for="black"><span></span></label>
+          </div>
+          <div>
+            <input data-image="green" type="radio" id="green" name="color" value="green">
+            <label for="green"><span></span></label>
+          </div>
+          <div>
+            <input data-image="yellow" type="radio" id="yellow" name="color" value="yellow">
+            <label for="yellow"><span></span></label>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Cable Configuration -->
+      <div class="cable-config">
+        <span>Cable configuration</span>
+        <a href="#">check for other variety of T-Shirts</a>
+      </div>
+    </div>
+
+    <!-- Product Pricing -->
+    <div class="product-price">
+      <span>14.99$</span>
+      <button class="cart-btn" id="tshirt">Add to cart</button>
+      <span id="msg"></span>
+    </div>
+  </div>
+
+  <!-- Left Column / T-Shirts Image -->
+  <div class="col-xs-3 images">
+  
+      <img data-image="red" class="active" src="../../images/tshirt1.png" alt="">
+    </div>
+
+  <script src="../../js/productlist.js"></script>

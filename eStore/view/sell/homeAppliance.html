@@ -1,0 +1,64 @@
+<link rel="stylesheet" href="../../css/styles.css">
+<link rel="stylesheet" href="../../css/bootstrap.min.css">
+<script src="../../js/bootstrap.min.js"></script>
+<div class="">
+ 
+   <h1>Sell your vehicle noww!</h1>
+   <p>sell your cars at amazing resale values</p>
+
+ 
+   <div class="">
+      <!-- Product Description -->
+      <div class="product-description">
+      
+
+         <form class="form-horizontal col-xs-10 col-md-12"  method="POST" id="vehicalForm" style="margin:15px 0">
+     
+         <div class="form-group">
+            <label class="col-xs-3 control-label " for="carType">Car Type</label>
+            <div class="col-sm-5">
+                <select id="carType" name="carType" class="form-control">
+                    <option value="sedan">Sedan</option>
+                    <option value="mini">Mini</option>
+                    <option value="hunch back">Hunch Back</option>
+                    <option value="SUV">SUV</option>
+                 </select>
+            </div>
+         </div>
+         <div class="form-group">
+            <label class="col-xs-3 control-label " for="carModelName">Car Model Name</label>
+            <div class="col-sm-5">
+               <input class="form-control" type="text" id="carModelName" name="carModelName" placeholder="Car Model(ex. Audi Q5 , BMW 3030..">
+            </div>
+         </div>
+         <div class="form-group">
+            <label class="col-xs-3 control-label " for="yearsUsed">Used since</label>
+            <div class="col-sm-5">
+               <input class="form-control" type="text" id="yearsUsed" name="yearsUsed" placeholder="Car used Since">
+            </div>
+         </div>
+         <div class="form-group">
+            <label class="col-xs-3 control-label " for="subject">Description about Car</label>
+            <div class="col-sm-5">
+               <textarea id="subject" name="subject"class="form-control" placeholder="Write something.." style="height:100px"></textarea>
+            </div>
+         </div>
+         
+         <div class="form-group">
+            <label class="col-xs-3 control-label " for="image">Upload image of your car over here</label>
+            <div class="col-sm-5">
+               <input class="form-control" type="file" id="image" name="image" placeholder="Car image upload">
+            </div>
+         </div>
+         
+         <div>
+            <button type="submit" class="btn btn-default btn-primary  ">Submit</button>
+         </div>
+         </form>
+      </div>
+   </div>
+</div>
+
+</div>
+</div>
+<script src="../../js/productlist.js"></script>

@@ -24,6 +24,9 @@ input:required:invalid, textarea:required:invalid {
 .left20{
   margin-left:20px;
 }
+.right120{
+  margin-right:20px;
+}
 button{
   min-width:150px;
 }
@@ -55,6 +58,46 @@ button{
 }
 footer{
     color:#fff;
+}
+
+
+.product-price, .product-price:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+span#msg {
+  color: #371ca3;
+  font-size: 14px;
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.CartList table {
+  width: 90%;
+  margin-top: 30px;
+}
+.CartList table tr td, .CartList table tr th {
+  padding: 8px 0;
+  text-align: center;
+}
+.CartList input {
+  width: 50px;
+}
+
+#buyNow{
+  float:right;
+  margin-right: 150px;
+}
+.highlight{
+  color:rgb(35, 10, 177);
+  font-weight: bold;
+}
+#noList {
+  color:rgb(35, 10, 177);
+  font-size: 19px;
+  margin-top: 40px;
+  text-align: center;
 }
 /*welcome*/
 
@@ -281,7 +324,7 @@ html, body {
   margin-right: 20px;
 }
  
-.cart-btn {
+.cart-btn , .cart-btn:hover{
   display: inline-block;
   background-color: #7DC855;
   border-radius: 6px;
@@ -338,8 +381,3 @@ input[type=text], select, textarea {
 
 }
 /*end of productlist*/
-/* payment details*/
-.paymentpanel{
-	width:50%;
-	margin:2%;
-}
