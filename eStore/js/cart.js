@@ -1,8 +1,11 @@
 
 var bill = [];
-$("#buyNow").on("click", function (e) {
 
-})
+var payment = function () {
+  //window.document.getElementById("payment").click();
+  window.parent.document.getElementById('payment').click(); 
+
+}
 
 
 var updateCharity = function (val, total) {
@@ -20,7 +23,7 @@ var updateQuantity = function (val, price, item) {
    // $("#billAmount").text(val);
     console.log(bill)
 
-    
+
 
     
 
@@ -88,7 +91,7 @@ var cartLoad = function () {
         $(".CartList table").append(totalCost);
         $(".CartList table").append(charity);
         $(".CartList table").append(totalBill);
-        $(".CartList").append("<button id='buyNow' class='btn right120 pull-right btn-primary'>Buy Now</button>")
+        $(".CartList").append("<button id='buyNow' class='btn right120 pull-right btn-primary' onclick='payment()'>Buy Now</button>")
 
 
 
