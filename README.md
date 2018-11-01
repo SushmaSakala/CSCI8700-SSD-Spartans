@@ -7,8 +7,8 @@ He is given an opportunity to determine any reasonable price. We are planning to
 can be rendered in all devices with any breakpoints responding as per screen size and orientation.
 
 ### Team Members
-Sushma Sakala
-Lakshmi Prasanna Kaspa
-Sainath Reddy Methukupally
-Sai Teja Sirivolu
+#Sushma Sakala
+#Lakshmi Prasanna Kaspa
+#Sainath Reddy Methukupally
+#Sai Teja Sirivolu
 
