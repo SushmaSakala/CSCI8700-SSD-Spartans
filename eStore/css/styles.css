@@ -126,6 +126,16 @@ display:none;
     list-style-type: none;
     margin: 10px 0;
 }
+
+
+/* payment details*/
+.paymentpanel{
+	width:50%;
+	margin:2%;
+}
+
+
+
 /*tablet styles*/
 @media screen and (min-width: 660px)  and (max-width: 1200px) {
 
