@@ -338,3 +338,8 @@ input[type=text], select, textarea {
 
 }
 /*end of productlist*/
+/* payment details*/
+.paymentpanel{
+	width:50%;
+	margin:2%;
+}
