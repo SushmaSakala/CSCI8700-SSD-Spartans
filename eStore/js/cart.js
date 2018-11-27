@@ -25,9 +25,6 @@ var updateQuantity = function (val, price, item) {
 
 
 
-    
-
-
 }
 
 var cartLoad = function () {

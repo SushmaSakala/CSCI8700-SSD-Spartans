@@ -30,6 +30,25 @@ $(document).ready(function () {
   });
 
 
+  $("#newProdForm").submit(function (e) {
+    e.preventDefault();
+    var signUpData={};   
+    var validFlag=true;  
+    var pwdFlag=true;
+    $.each($(this).serializeArray(), function (i, field) {
+        signUpData[field.name] = field.value;
+    });
+
+    
+var inv=JSON.parse(localStorage.getItem("Inventory"));
+inv.push(signUpData);
+localStorage.setItem("Inventory",JSON.stringify(inv))
+console.log(inv)
+});
+  
+
+
+
 
 
 });

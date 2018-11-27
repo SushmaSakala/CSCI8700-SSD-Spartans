@@ -2,27 +2,30 @@
 <link rel="stylesheet" href="../css/styles.css">
 <script src="../js/jquery.min.js"></script>
 <script src="../js/bootstrap.min.js"></script>
+<script>
 
+
+    function loadProducts(){
+    alert("load")
+    }
+    </script>
 <h1>Products List</h1>
 
-<div class="col-sm-12 text-left" style="    border-top: 1px solid #DDD;">
+<div class="col-sm-12 text-left" style="    border-top: 1px solid #DDD;" id="buyProdPage" onload="loadProducts()">
 
   <div class="sidebar col-xs-3">
     <nav class="sidebar-nav">
-      <ul class="nav">
+      <ul class="nav" id="BuyNav">
         <li class="nav-title" style="margin-top:20px;color:darkblue;">Buy Products over here</li>
         <li class="nav-item">
           <a class="nav-link" href="buy/beatsHeadphones.html" target="productFrame"><span class="glyphicon "></span>Beats
             Headphones</a>
         </li>
-
         <li class="nav-item"> <a class="nav-link" href="buy/perfume.html" target="productFrame"><span class="glyphicon "></span>Jaguar
             Perfume
           </a></li>
-
         <li class="nav-item ">
         <a class="nav-link" href="buy/tShirts.html" target="productFrame"><span class="glyphicon "></span>T-shirts</a>
-
         </li>
 
       </ul>
