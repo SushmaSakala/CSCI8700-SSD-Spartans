@@ -60,6 +60,11 @@ footer{
     color:#fff;
 }
 
+.paymentlist{
+	width:100%
+}
+
+
 
 .product-price, .product-price:hover {
   color: #fff;
